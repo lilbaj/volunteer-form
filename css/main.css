@@ -20,3 +20,7 @@ button {
   background-color: #6e8c62;
   border-color: #6e8c62;
 }
+
+fieldset {
+  border-color: rgba(110, 140, 98, 0.5);
+}
