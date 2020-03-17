@@ -17,7 +17,7 @@
     <header class="unit s-1 m-1 l-1">
       <div class="wrapper gutter-1-2 pad-t">
         <h1 class="push-1-4">Apply to be a tree planter</h1>
-        <p class="bold">Trees are one of the world’s most precious renewable resources—we need your help to renew the ecosystem.</p>
+        <p class="mega">Trees are one of the world’s most precious renewable resources—we need your help to renew the ecosystem.</p>
       </div>
     </header>
 
@@ -31,7 +31,7 @@
 
             <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2">
               <label class="kilo" for="name">Full name</label>
-              <input id="name" type="text" name="full-name">
+              <input id="name" type="text" name="full-name" required>
               <p class="italic micro">Your full legal name, for insurance purposes, e.g. “Elizabeth Bradley”.</p>
             </div>
 
@@ -48,7 +48,7 @@
 
             <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2 push">
               <label class="kilo" for="t-sizes">T-shirt size</label>
-              <select id="t-size" class="" name="t-shirt">
+              <select id="t-sizes" class="" name="t-shirt">
                 <option>Select a t-shirt size</option>
                 <option>Fitted: XS</option>
                 <option>Fitted: S</option>
@@ -113,7 +113,7 @@
 
             <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2">
               <label class="kilo" for="postal-code">Postal code</label>
-              <input id="postal-code" type="text" name="" pattern="[A-Za-z][0-9][A-Za-z] ?[0-9][A-Za-z][0-9]">
+              <input id="postal-code" type="text" name="postal-code" pattern="[A-Za-z][0-9][A-Za-z] ?[0-9][A-Za-z][0-9]">
             </div>
           </div>
         </fieldset>
@@ -289,7 +289,7 @@
     </form>
 
     <footer class="unit s-1 m-1 l-1 pad-t push">
-      <div class="wrapper gutter-1-2">
+      <div class="wrapper gutter-1-2 btn">
         <p class="milli">© Tree Hugger International Organization</p>
       </div>
     </footer>

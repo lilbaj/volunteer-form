@@ -1,5 +1,5 @@
 html {
-  font-family: 'Noto Serif', serif;
+  font-family: "Noto Serif", serif;
 }
 
 header {
@@ -22,17 +22,12 @@ button {
 }
 
 fieldset {
-  border-color: rgba(110, 140, 98, 0.3);
+  border-color: rgba(110, 140, 98, .3);
 }
 
 input,
 textarea,
 select {
-  border: 2px solid #6e8c62;
-}
-
-input type checkbox
-input type radio {
   border: 2px solid #6e8c62;
 }
 
